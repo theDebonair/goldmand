@@ -1,12 +1,7 @@
-// This is a free script for the game goldmand.io
-//
-// @author       Smartbot Black Team
-// @site         https://smartbot.black/
-
 const SELECTOR_MINE =
-  ".game--container  > .mining-box .mining-box--content a.button";
+  "#__next > div > div.game--container > div.mining-box > div > a.button.green-button.solid-button.start-mining-button.desktop";
 const SELECTOR_APPROVE =
-  ".game--container  > .mining-box .modal.visible .button.green-button";
+  "#__next > div > div.modals-container > div > div > div > div > div.modal-bottom.modal-bottom--center.green > a";
 const DELAY = 10 * 1000;
 
 (async () => {
